@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct FriendDetailItemView: View {
+    // MARK: - Propertices
     let title: String
     let value: String
+    
+    // MARK: - UI
     var body: some View {
         HStack {
             Text("\(title): ")
             Text("\(value)")
-        }.font(.fontNormal30)
-        
+        }//: HStack
+        .font(.fontNormal30)
     }
 }

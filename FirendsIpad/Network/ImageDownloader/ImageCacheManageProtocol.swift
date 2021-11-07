@@ -7,11 +7,14 @@
 
 import Foundation
 import UIKit
+
+// cache for store already loaded images
 protocol ImageCacheManageProtocol {
     func add(data: UIImage?, for key: String)
     func data(for key: String) -> UIImage?
 }
 
+// dectionary implementation for CacheManager
 class InMemoryCacheManager: ImageCacheManageProtocol {
     static let shared = InMemoryCacheManager()
     var cache = [String: UIImage?]()

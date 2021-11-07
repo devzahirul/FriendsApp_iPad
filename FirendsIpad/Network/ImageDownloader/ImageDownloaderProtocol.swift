@@ -29,12 +29,14 @@ extension ImageDownloaderProtocol {
 
 
 class DefaultImageDownloader: ImageDownloaderProtocol, ObservableObject {
+    // MARK: - Propertices
     var imageData: UIImage?
     var url: URL?
     var urlSessionProtocol: URLSessionProtocol
     var cacheManageProtocol: ImageCacheManageProtocol
     var bag: Set<AnyCancellable> = Set<AnyCancellable>()
     
+    // MARK: - Init
     init(urlSessionProtocol: URLSessionProtocol = URLSession.shared, url: URL?, cacheManageProtocol: ImageCacheManageProtocol = InMemoryCacheManager.shared) {
         self.urlSessionProtocol = urlSessionProtocol
         self.url = url
@@ -56,11 +58,11 @@ class DefaultImageDownloader: ImageDownloaderProtocol, ObservableObject {
                         self?.objectWillChange.send()
                     }
                 }.store(in: &bag)
-          
         }
         
     }
 }
+
 
 extension DefaultImageDownloader {
     static func get(for url: String?) -> DefaultImageDownloader {

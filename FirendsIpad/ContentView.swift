@@ -9,7 +9,10 @@ import SwiftUI
 
 
 struct ContentView: View {
+    //MARK: UI
     var body: some View {
+        //App short prefix FA(friends App) is used for common implementation of UI, Networks and so on
+        //App Start View
         MainView()
     }
 }

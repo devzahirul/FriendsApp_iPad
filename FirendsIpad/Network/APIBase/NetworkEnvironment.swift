@@ -7,35 +7,17 @@
 
 import Foundation
 
+// networkEnvironment is used for different different developement environment like dev, stg or production
 protocol NetworkEnvironment {
     var baseURLString: String { get }
 }
 
-
+// for dev
 struct DevelopNetworkEnvironment: NetworkEnvironment {
     let baseURLString: String
 }
 
-struct StagingNetworkEnvironment: NetworkEnvironment {
-    let baseURLString: String
-}
-
-struct ProductionNetworkEnvironment: NetworkEnvironment {
-    let baseURLString: String
-}
-
-//enum NetworkEnvironment: String {
-//    case development
-//
-//    var baseURLString: String {
-//        switch self {
-//        case .development: return "https://randomuser.me/"
-//        }
-//    }
-//}
-
+// NameSpace for NetworkEnvironment
 enum NetworkEnvironments {
     static let developNetworkEnvironment = DevelopNetworkEnvironment(baseURLString: "https://randomuser.me/")
-    static let stgNetworkEnvironment = DevelopNetworkEnvironment(baseURLString: "https://randomuser.me/")
-    static let productionNetworkEnvironment = DevelopNetworkEnvironment(baseURLString: "https://randomuser.me/")
 }

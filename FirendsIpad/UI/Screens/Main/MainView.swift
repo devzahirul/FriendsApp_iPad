@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MainView: View {
+    
+    //MARK:- UI
     var body: some View {
         NavigationView {
             HomeView()

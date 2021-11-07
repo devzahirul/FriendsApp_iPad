@@ -54,17 +54,7 @@ extension URLQueryItem {
     }
 }
 
-
-struct FirendsAppEndpoint: NetworkEndpoint {
-    var parameters: [String : String]?
-    
-    var path: String
-    
-    var method: NetworkMethod
-    
-    
-}
-
+// common implementation for NetworkEndpoint
 struct FANetworkEndpoint: NetworkEndpoint {
     var parameters: [String : String]?
     

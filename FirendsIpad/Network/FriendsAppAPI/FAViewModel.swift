@@ -10,10 +10,6 @@ import Combine
 
 
 
-
-
-
-
 class FAViewModel<Response: Decodable>: NetworkViewModel {
    
     var resource: Resource<Response> = .loading

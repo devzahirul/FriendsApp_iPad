@@ -9,8 +9,10 @@ import SwiftUI
 
 
 struct FirendDetailView: View {
+    //MARK: - Propertices 
     let friend: FriendModel
     
+    // MARK: - UI
     var body: some View {
         VStack {
             List {

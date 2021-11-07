@@ -8,16 +8,19 @@
 import SwiftUI
 
 struct HomeView: View {
-    
+    //MARK:- Environment
     @Environment(\.appContext) var context
     
+    // MARK: - State propertices
     @State var moveToDetail = false
     @State var selectedFriendModel: FriendModel?
     
+    // MARK: - Private propertices
     private var container: FriendListContainer {
         context.friendListContainer
     }
     
+    // MARK: - UI
     var body: some View {
         NetworkContainerView(viewModel: container.friendVM) { response in
             PaginationScrollView(useGridView: true) {
@@ -27,17 +30,17 @@ struct HomeView: View {
                     .onTapGesture {
                         selectedFriendModel = element
                         moveToDetail = true
-                    }
+                    }//: onTap
                     
-                    
-                  }
+                  }//: ForEacj
                  
-                }
+                }//: paginationScrollView
             .navigationTitle(Text(FriendsAppString.friendsListTitle.toString))
             
+            // Router
             NavigationLink(destination: FirendDetailView(friend: selectedFriendModel ?? FriendModel.emptyModel), isActive: $moveToDetail) {
                 EmptyView()
-            }
+            }//: navigationLink
         }
     }
 }
