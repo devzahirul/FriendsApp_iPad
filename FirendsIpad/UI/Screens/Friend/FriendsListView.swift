@@ -38,7 +38,7 @@ struct HomeView: View {
             .navigationTitle(Text(FriendsAppString.friendsListTitle.toString))
             
             // Router
-            NavigationLink(destination: FirendDetailView(friend: selectedFriendModel ?? FriendModel.emptyModel), isActive: $moveToDetail) {
+            NavigationLink(destination: FriendDetailView(friend: selectedFriendModel ?? FriendModel.emptyModel), isActive: $moveToDetail) {
                 EmptyView()
             }//: navigationLink
         }

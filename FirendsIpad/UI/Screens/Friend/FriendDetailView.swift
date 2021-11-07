@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-struct FirendDetailView: View {
+struct FriendDetailView: View {
     //MARK: - Propertices 
     let friend: FriendModel
     

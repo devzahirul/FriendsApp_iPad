@@ -24,13 +24,13 @@
 		FA7C77C22736A4FC00E14C77 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77C12736A4FC00E14C77 /* Fonts.swift */; };
 		FA7C77C42736A52600E14C77 /* ConstantUISizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77C32736A52600E14C77 /* ConstantUISizes.swift */; };
 		FA7C77C92736A75A00E14C77 /* NetworkContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77C82736A75A00E14C77 /* NetworkContainerView.swift */; };
-		FA7C77CC2737522400E14C77 /* FirendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77CB2737522400E14C77 /* FirendDetailView.swift */; };
+		FA7C77CC2737522400E14C77 /* FriendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77CB2737522400E14C77 /* FriendDetailView.swift */; };
 		FA7C77CE2737636000E14C77 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77CD2737636000E14C77 /* ActivityIndicatorView.swift */; };
 		FA7C77D0273775F200E14C77 /* PaginationScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77CF273775F200E14C77 /* PaginationScrollView.swift */; };
 		FA7C77D22737760D00E14C77 /* LazyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77D12737760D00E14C77 /* LazyStack.swift */; };
 		FA7C77D4273778DE00E14C77 /* View+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77D3273778DE00E14C77 /* View+Shadow.swift */; };
 		FA7C77D627377C5400E14C77 /* FriendsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77D527377C5400E14C77 /* FriendsListView.swift */; };
-		FA7C77D827377C9300E14C77 /* FirendItemCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77D727377C9300E14C77 /* FirendItemCardView.swift */; };
+		FA7C77D827377C9300E14C77 /* FriendItemCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77D727377C9300E14C77 /* FriendItemCardView.swift */; };
 		FA7C77DA27377CD600E14C77 /* FriendDetailItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77D927377CD600E14C77 /* FriendDetailItemView.swift */; };
 		FA7C77DC27377E6700E14C77 /* Localizaable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77DB27377E6700E14C77 /* Localizaable.swift */; };
 		FA7C77DE2737824100E14C77 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C77DD2737824100E14C77 /* MainView.swift */; };
@@ -63,13 +63,13 @@
 		FA7C77C12736A4FC00E14C77 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		FA7C77C32736A52600E14C77 /* ConstantUISizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantUISizes.swift; sourceTree = "<group>"; };
 		FA7C77C82736A75A00E14C77 /* NetworkContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkContainerView.swift; sourceTree = "<group>"; };
-		FA7C77CB2737522400E14C77 /* FirendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirendDetailView.swift; sourceTree = "<group>"; };
+		FA7C77CB2737522400E14C77 /* FriendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailView.swift; sourceTree = "<group>"; };
 		FA7C77CD2737636000E14C77 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		FA7C77CF273775F200E14C77 /* PaginationScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationScrollView.swift; sourceTree = "<group>"; };
 		FA7C77D12737760D00E14C77 /* LazyStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStack.swift; sourceTree = "<group>"; };
 		FA7C77D3273778DE00E14C77 /* View+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Shadow.swift"; sourceTree = "<group>"; };
 		FA7C77D527377C5400E14C77 /* FriendsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListView.swift; sourceTree = "<group>"; };
-		FA7C77D727377C9300E14C77 /* FirendItemCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirendItemCardView.swift; sourceTree = "<group>"; };
+		FA7C77D727377C9300E14C77 /* FriendItemCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendItemCardView.swift; sourceTree = "<group>"; };
 		FA7C77D927377CD600E14C77 /* FriendDetailItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailItemView.swift; sourceTree = "<group>"; };
 		FA7C77DB27377E6700E14C77 /* Localizaable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizaable.swift; sourceTree = "<group>"; };
 		FA7C77DD2737824100E14C77 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -227,9 +227,9 @@
 		FA7C77C72736A6E000E14C77 /* Friend */ = {
 			isa = PBXGroup;
 			children = (
-				FA7C77CB2737522400E14C77 /* FirendDetailView.swift */,
+				FA7C77CB2737522400E14C77 /* FriendDetailView.swift */,
 				FA7C77D527377C5400E14C77 /* FriendsListView.swift */,
-				FA7C77D727377C9300E14C77 /* FirendItemCardView.swift */,
+				FA7C77D727377C9300E14C77 /* FriendItemCardView.swift */,
 				FA7C77D927377CD600E14C77 /* FriendDetailItemView.swift */,
 			);
 			path = Friend;
@@ -335,10 +335,10 @@
 				FA48B8162736055800F56BC2 /* NetworkViewModel.swift in Sources */,
 				FA48B8012735F8A900F56BC2 /* ContentView.swift in Sources */,
 				FA7C77E02737868A00E14C77 /* FriendModel.swift in Sources */,
-				FA7C77CC2737522400E14C77 /* FirendDetailView.swift in Sources */,
+				FA7C77CC2737522400E14C77 /* FriendDetailView.swift in Sources */,
 				FA7C77DA27377CD600E14C77 /* FriendDetailItemView.swift in Sources */,
 				FA48B7FF2735F8A900F56BC2 /* FirendsIpadApp.swift in Sources */,
-				FA7C77D827377C9300E14C77 /* FirendItemCardView.swift in Sources */,
+				FA7C77D827377C9300E14C77 /* FriendItemCardView.swift in Sources */,
 				FA48B812273602B300F56BC2 /* NetworkEnvironment.swift in Sources */,
 				FA48B8102736022F00F56BC2 /* Network.swift in Sources */,
 				FA7C77DE2737824100E14C77 /* MainView.swift in Sources */,
